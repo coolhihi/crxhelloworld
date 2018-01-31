@@ -1,0 +1,12 @@
+.hello{
+  position: fixed;
+  left: 0;
+  bottom: 30px;
+  width: 140px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  background: #444444;
+}

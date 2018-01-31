@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "chrome扩展示例",
+  "description": "chrome扩展示例",
+  "version": "1.0.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "chrome扩展示例"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.gxxsite.com/*"
+      ],
+      "all_frames": false,
+      "css": ["css/css.css"],
+      "js": ["js/libs/jquery.js", "js/page.js"]
+    }
+  ]
+}

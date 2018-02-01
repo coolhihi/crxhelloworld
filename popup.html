@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="js/libs/jquery.js"></script>
+    <script type="text/javascript" src="js/popup.js"></script>
+    <style>
+      html,body{
+        margin: 0;
+        padding: 0;
+      }
+      .btns{
+        width: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+      }
+      .title{
+        height: 34px;
+        line-height: 34px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 700;
+        color: #ffffff;
+        background: #0000cc;
+      }
+      .btn{
+        height: 28px;
+        line-height: 28px;
+        text-align: center;
+        font-size: 12px;
+        color: #555555;
+        background: #ffffff;
+        cursor: pointer;
+        border-top: 1px solid #eeeeee;
+      }
+      .btn:hover{
+        background: #eeeeee;
+        color: #000000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="btns">
+      <div class="title">背景色统一设置</div>
+      <div class="btn" data-color="red">红色</div>
+      <div class="btn" data-color="green">绿色</div>
+      <div class="btn" data-color="blue">蓝色</div>
+    </div>
+  </body>
+</html>

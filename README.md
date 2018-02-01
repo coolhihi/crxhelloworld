@@ -16,9 +16,9 @@
 
   2. 打开下面两个网页
 
-    [https://www.gxxsite.com](https://www.gxxsite.com)
+  [https://www.gxxsite.com](https://www.gxxsite.com)
 
-    [https://me.gxxsite.com](https://me.gxxsite.com)
+  [https://me.gxxsite.com](https://me.gxxsite.com)
 
   3. 这两个网页左下角都有几个按钮，用来改变另一个网页的背景颜色
 
